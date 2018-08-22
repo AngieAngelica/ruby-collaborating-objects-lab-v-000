@@ -43,7 +43,7 @@ class Artist
   def self.find_or_create_by_name(artist_name)
     self.find_by_name(artist_name) || self.create_by_name(artist_name)
   end 
-  
+  # How do we assign a new instance to a local variable?
   
   # alternate code using the tertiary operator
   
